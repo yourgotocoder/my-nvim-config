@@ -52,4 +52,5 @@ return require('packer').startup(function(use)
 
     use 'mattn/emmet-vim'
     use 'alvan/vim-closetag'
+    use 'windwp/nvim-ts-autotag'
 end)
