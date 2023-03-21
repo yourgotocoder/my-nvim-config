@@ -50,4 +50,6 @@ return require('packer').startup(function(use)
     run = function() vim.fn["mkdp#util#install"]() end,
 })
 
+    use 'mattn/emmet-vim'
+    use 'alvan/vim-closetag'
 end)
